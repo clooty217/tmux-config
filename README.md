@@ -85,8 +85,8 @@ using namespace std;
     d.	Delete the original array, remembering to use the []'s  
     e.	Assign ptr to tmpptr, so these pointers will both point at the newer array  
     f.	Do a cout << "Resized\n"; to report that this was done.  
-8.	Now run your program – **Q10:** what do you see?
-9.	Comment out "cout << ptr[used];" from step 27, and then at the end of this loop, add:  
+8.	Now run your program – **Q10:** What do you see?
+9.	Comment out ```cout << ptr[used] << endl;``` from step 5, and then after this loop, add:  
     a.	tmpptr[2] = 0;  
     b.	A loop that outputs all the numbers in the ptr array.  
 10.	**Q11:** What do you see? 
